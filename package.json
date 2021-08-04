@@ -112,7 +112,7 @@
     "z-schema": "4.2.2"
   },
   "devDependencies": {
-    "@babel/cli": "7.8.4",
+    "@babel/cli": "7.12.0",
     "@babel/core": "7.9.0",
     "@babel/plugin-check-constants": "7.0.0-beta.38",
     "@babel/plugin-proposal-class-properties": "7.8.3",
