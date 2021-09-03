@@ -71,7 +71,9 @@
     "disc": "npm run transpile && npm run build:es && cross-env NODE_ENV=disc webpack --config ./config/webpack.config.js",
     "preversion": "npm run lint && npm run test",
     "dev": "watch 'npm run test:fast' src/ test/",
-    "dev:example": "watch 'npm run transpile:src && echo \"done\"' src/ test/"
+    "dev:example": "watch 'npm run transpile:src && echo \"done\"' src/ test/",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "pre-commit": [
     "lint"
@@ -109,7 +111,8 @@
     "spark-md5": "^3.0.0",
     "url": "^0.11.0",
     "util": "0.12.2",
-    "z-schema": "4.2.2"
+    "z-schema": "4.2.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/cli": "7.8.4",
@@ -205,5 +208,6 @@
     "webpack": "4.42.0",
     "webpack-bundle-analyzer": "3.6.1",
     "webpack-cli": "3.3.11"
-  }
+  },
+  "snyk": true
 }
