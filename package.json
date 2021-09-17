@@ -99,7 +99,7 @@
     "is-electron": "2.2.0",
     "is-my-json-valid": "2.20.0",
     "modifyjs": "0.3.1",
-    "object-path": "0.11.4",
+    "object-path": "0.11.8",
     "pouchdb-all-dbs": "1.0.2",
     "pouchdb-core": "7.2.1",
     "pouchdb-find": "7.0.0",
