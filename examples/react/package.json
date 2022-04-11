@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "dependencies": {
     "babel-polyfill": "6.26.0",
-    "concurrently": "5.1.0",
+    "concurrently": "6.0.0",
     "pouchdb-adapter-http": "7.2.1",
     "pouchdb-adapter-idb": "7.2.1",
     "pouchdb-replication": "7.2.1",
@@ -12,7 +12,7 @@
     "react-dom": "16.13.1"
   },
   "devDependencies": {
-    "react-scripts": "3.4.0",
+    "react-scripts": "5.0.0",
     "rimraf": "3.0.2"
   },
   "scripts": {
